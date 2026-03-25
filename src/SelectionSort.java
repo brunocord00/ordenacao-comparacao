@@ -14,7 +14,6 @@ public class SelectionSort {
 
                     menorIndice = j;
                 }
-
             }
             // troca os valores de posição
             int valorTemp = num[i];
@@ -22,7 +21,6 @@ public class SelectionSort {
             num[menorIndice] = valorTemp;
 
         }
-
     }
 
     public static void main(String[] args) throws Exception{
@@ -36,7 +34,6 @@ public class SelectionSort {
             num[numValido] = leitor.nextInt();
             numValido++;
         }
-
         leitor.close();
 
         selectionSort(num,numValido);
@@ -44,7 +41,5 @@ public class SelectionSort {
         for(int i=0;i<numValido;i++){
             System.out.println(num[i]);
         }
-
     }
-
 }

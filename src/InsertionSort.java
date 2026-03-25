@@ -14,9 +14,7 @@ public class InsertionSort {
                 j--;
             }
             num[j+1] = valorAtual;
-
         }
-
     }
 
     public static void main(String[] args) throws Exception{
@@ -40,7 +38,5 @@ public class InsertionSort {
         for(int i=0;i<numValido;i++){
             System.out.println(num[i]);
         }
-
     }
-
 }
