@@ -15,17 +15,14 @@ O programa lê arquivos contendo números, realiza a ordenação e mostra o resu
 ## Como compilar
 
 Dentro da pasta do projeto, executar:
-
 make
 
 ## Como executar
 
 Para rodar o SelectionSort:
-
 make selection
 
 Para rodar o InsertionSort:
-
 make insertion
 
 ## Estrutura do projeto
